@@ -1,0 +1,219 @@
+body {
+    padding-top: 54px;
+    background-color:#E2D8D8;
+  }
+  
+  @media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #carouselIndicators img{  
+      max-height: 200px;
+    }
+
+    #mainProducts h2{
+      font-size: 27px;
+    }
+    #mainProducts .card .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+
+    #models .card .card-img-top {
+      height: 200px;
+    }
+
+    #gallery .row img{
+      height:150px;
+    }
+
+    #product .row img {
+      height: 230px;
+    }
+
+     #restModels .row img{
+      object-fit:cover;
+    }
+  } 
+
+  #logoText{
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    color: #E2D8D8;
+  }
+
+  .carousel-item {  
+    max-height: 600px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    
+  }
+
+  header{
+    padding-top: 10px;
+  }
+
+  .alertEmail{
+    padding-top: 10px; 
+  }
+
+  
+  #carouselIndicators img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+#mainProducts .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+     
+}
+
+#mainProducts .card a {
+  text-decoration:none;
+}
+
+#models .card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+} 
+
+#gallery img {
+  width: 100%;
+  height: 12vw;
+  object-fit: cover;
+} 
+#gallery img:hover{
+  transform:scale(1.1);
+}
+#about a{
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+#about a:link {
+  text-decoration: none;
+}
+#abouta:visited {
+  text-decoration: none;
+}
+#about a:active {
+  text-decoration: none;
+}
+#about a:hover {
+  text-decoration: none;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+#contact a{
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+#contact a:link {
+  text-decoration: none;
+}
+#contact a:visited {
+  text-decoration: none;
+}
+#contact a:active {
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: none;
+}
+
+
+#models h4 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#models .btn {
+  color:white;
+  font-size:20px;
+}
+
+
+#restModels img{
+  height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  object-fit: cover;
+}
+
+#product img {
+  width: 100%;
+  max-width: 650px;
+  height: 550px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  object-fit: cover;
+}
+
+#cartIcon{
+  display: inline-flex;
+  align-items: center;
+  font-size:17px;
+}
+footer a{
+  font-size:18px;
+  color:rgb(211, 208, 208);
+}
+footer a:hover{
+  text-decoration:none;
+  color:white;
+}
+
+#cartTable{
+  padding-top:40px;
+  margin-bottom:60px;
+}
+#cartTable table{
+  text-align: center;
+  font-size:19px; 
+}
+
+#cartBottom{
+  margin-bottom:50px;
+  margin-top:30px;
+  line-height: 4.5em;
+}
+#cartBottom button{
+  font-size:19px;
+}
+
+#porudzbina ul{
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2.5em;
+}
+
+.hideDiv{
+  display:none;
+}
+.showDiv{
+  display:block;
+}
+
+#instagramInfoText{
+  margin-top:50px;
+}
